@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'firasans';
+	src: url('../fonts/fira-sans.light.eot');
+	src: url('../fonts/fira-sans.light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/fira-sans.light.woff') format('woff'),
+		 url('../fonts/fira-sans.light.ttf') format('truetype'),
+		 url('../fonts/fira-sans.light.svg#firasans') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}

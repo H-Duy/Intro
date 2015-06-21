@@ -1,0 +1,155 @@
+*{
+/*-webkit-transition: all 500ms linear;
+-moz-transition: all 500ms linear;
+-ms-transition: all 500ms linear;
+-o-transition: all 500ms linear;
+transition: all 500ms linear;*/
+}
+/*======= DashBoard =======*/
+#wrapper.lower{
+	padding-bottom: 50px;
+	position: relative;
+	height: auto;
+}
+
+#wrapper.lower #footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: url(../images/bg-wrapper.png);
+}
+
+#wrapper.uper{
+	padding-bottom: 50px;
+}
+
+#wrapper.uper #footer{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: url(../images/bg-wrapper.png);
+}
+
+@media screen and (min-width: 1400px) and (min-height: 650px){
+	html{
+		overflow-x: hidden;
+	}
+	.main-content .box-content .task {
+		margin: 0px 0 0 20px;
+	}
+	.main-content .box-content .percent {
+		margin: 0 auto;
+	}
+	.main-content .box-content .task li {
+		margin: 0;
+	}
+	.main-content .box-content .update {
+		margin: 5px 0 0;
+	}
+	.main-content .title-dashboard {
+		margin: 0px 0 0;
+		padding-left: 60px;
+		padding-top: 6px;
+	}
+	.jcarousel-wrapper {
+		margin-top: 10px;
+	}
+	.main-content {
+		padding: 0px;
+	}
+	.main-content .box-content .brand-content h4 {
+		margin: 0px;
+	}
+	.main-content .box-content .brand-content .redesign{
+		margin: 0px;
+		font-size: 18px;
+	}
+	.main-content .box-content .brand-content p{
+		font-size: 13px;
+	}
+	.main-content .box-content .team-member{
+		margin: 0px;
+	}
+	.main-content .box-content .task li a {
+		font-size: 16px;
+	}
+	.main-content .box-content .brand-content h4{
+		font-size: 24px;
+	}
+	.main-content .box-content .update .wrap-list-update {
+		font-size: 0;
+		margin: 0 0 10px;
+	}
+	#footer{
+		
+	}
+	.sidebar .sidebar-navigation ul li{
+		padding: 4px 0px;
+	}
+	html, body, #wrapper, #wrapper-main, #wrapper-main-content{
+		height: 100%;
+	}
+	.sidebar .sidebar-navigation .icon-toggle{
+		margin: 5px 0px;
+	}
+}
+
+@media screen and (min-width: 1500px){
+	.icon-toggle-show{
+		display: none;
+	}
+	.main-content .box-content .percent{
+		margin: 10px auto;
+	}
+	.main-content .box-content .team-member{
+		margin: 22px 0 0 15px;
+	}
+	.main-content .box-content .update{
+		margin: 56px 0px 0px;
+	}
+	.main-content .box-content .task li {
+	    margin: 0 0 10px;
+	}
+	.main-content .box-content .task {
+	    margin: 37px 0 0 20px;
+	}
+	.main-content .box-content .update .wrap-list-update{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-height: 1000px){
+	body, html, #wrapper, #wrapper-main{
+		position: relative;
+		height: 100%;
+	}
+
+	#footer{
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		height: 50px;
+		background: url("../images/bg-wrapper.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+	.sidebar{
+		bottom: 130px;
+	}
+	.main-content{
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 1800px){
+	.brand.clearfix {
+	    margin: 20px 0;
+	}
+	.main-content .box-content .task li{
+		margin-bottom: 25px;
+	}
+	.list-note{
+		height: 200px;
+	}
+}
